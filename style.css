@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background: pink;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    overflow: auto;
+}
+
+    
+.bg {
+    background-image: url(../Basic-Portfolio/assets/images/memphis\ image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  nav {
+    width: 100%;
+    margin-top: 35px;
+    text-align: left;
+    margin-top: 35px;
+  }
+
+  .container {
+      text-align: justify; 
+  }
+  
+  .img {
+    width: 25%;
+    height: auto;
+    float: left;
+  }
